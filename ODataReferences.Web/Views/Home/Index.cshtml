@@ -1,0 +1,7 @@
+﻿@model ODataReferences.Web.Models.BlogPostsModel
+<ul>
+    @foreach (var post in Model.Posts)
+    {
+        <li>@post.Id: @post.Title</li>
+    }
+</ul>
